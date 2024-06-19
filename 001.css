@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    background-color: #f4f8fb;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.center{
+    max-width: 1196px;
+    margin: auto;
+}
+
+h1{
+    color: white;
+    padding: 0.2rem;
+}
+
+nav {
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+a,li, ul{
+    color: #a8dadc;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0.2rem;
+    margin-left: 10px;
+}
+ul {
+    margin-right: 15rem;
+}
+.Product12 {
+    display: flex;
+       
+}
+.Product34 {
+    display: flex;
+    
+       
+}
+.product2{
+    margin-left: 35rem;
+    
+    position: absolute;
+}
+
+.fieldset1{
+    width: 500px;
+    height: 350px;
+    background-color: white;
+    padding: 2rem;
+    margin-left: 10rem;
+    margin-top: 15px;
+    border-radius: 24px solid;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    
+}
+img{
+     margin-bottom: -2rem;
+     margin-left: 5rem;
+}
+button{
+    margin-left: 10rem;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    width: 85px;
+    height: 25px;
+    border-radius: 5px;   
+    margin-top: 1.5rem;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #218838;
+}
+.p{
+    margin-left: 10rem;
+    font-weight: 10;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 1.9rem;
+}
+.money {
+    margin-left: 10rem;
+    margin-top: 20px;
+    color: #007bff;
+
+}
+
+
+
+@Media screen and (max-width: 1400px) {
+        
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    
+    nav {
+            display: fl;
+            background-color: black;  
+            justify-content: space-around;
+              
+        }
+        a,li, ul{
+            color: white;
+            display: flex;
+            justify-content: space-evenly;
+            margin: 0.2rem;
+            margin-left: 10px;
+
+            
+        }
+        .Product12 {
+            display: block;
+
+               
+    }
+    .Product34 {
+        display: block;
+        margin-top: 25rem;
+        
+       
+           
+    }
+    .center{
+        max-width: 500px;
+        margin: auto;
+        display: block;
+    }
+    .product2{
+        margin-left: -0.2rem;
+        display: block;
+        position: absolute;
+        
+    }
+}
